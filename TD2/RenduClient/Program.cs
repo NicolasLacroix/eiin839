@@ -10,6 +10,6 @@
             Console.WriteLine($"Error : {result.ReasonPhrase}");
             return;
         }
-        Console.WriteLine($"increment result is {result.Content.ToString()}");
+        Console.WriteLine($"increment result is {result.Content.ReadAsStringAsync()}");
     }
 }

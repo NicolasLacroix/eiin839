@@ -127,7 +127,7 @@ namespace BasicWebServer
         public string call(string source, string phoneNumber)
         {
             ProcessStartInfo start = new ProcessStartInfo();
-            start.FileName = @"C:\Users\User\source\repos\rendus\eiin839\TD2\call\bin\Debug\net6.0\call.exe";
+            start.FileName = @"..\..\..\call\bin\Debug\net6.0\call.exe";
             start.Arguments = $"{source} {phoneNumber}";
             start.UseShellExecute = false;
             start.RedirectStandardOutput = true;
