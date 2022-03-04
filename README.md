@@ -1,3 +1,16 @@
+# Rendu Nicolas Lacroix
+
+Le serveur est dans le projet BasicWebServerUrlParser.
+Le client est dans le projet RenduClient.
+L'exécutable est dans le projet call.
+
+Des exemples de paths disponibles sont :
+
+http://localhost:8080/td02/add?param1=asterix&param2=obelix
+http://localhost:8080/td02/send?param1=obelix&param2=hello
+http://localhost:8080/td02/call?param1=asterix&param2=3637
+http://localhost:8080/m2m/incr?param1=1
+
 # EIIN839 - ECUE Service oriented computing/WS
 
 This repository contains helpers for the exercises and projects of the Service Oriented Computing / Web Services course of Polytech'Nice-Sophia.
